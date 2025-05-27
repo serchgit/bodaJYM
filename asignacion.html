@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/misEstilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet">
+    <!--Estilos en Css -->
+    <body>
+ 
+<header class="cabecera">
+  <h1 class="display-4 text-center titulo py-4 azul tit-asig" id="titulo" title="img/titulo.pdf">Asignación de Mesas</h1>
+  
+</header>
+
+<!-- Modal -->
+<div class="modal fade" id="modalmesa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title azul" id="exampleModalLabel">Invitados</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center modal-fam">
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm " data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+</div>
+     
+<div class="cont-mesas container">
+  <!-- mesa 1 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa1">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 1</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Reyna">
+        Reyna Cruz</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Abigail,Eleazar,Absalon,Esau">
+        Fam Carrales Estrada</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Ismael,Fany,Valeria,Mauricio,Luca,Kimberly">
+        Fam Carrales García</a> 
+          <span class="badge badge-primary badge-pill">6</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 2 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa2">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 2</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Ruth,Rafael">
+        Ruth Nájera</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Margarita,Silvia">
+        Fam Nájera Oliver</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Yaakov,Dafne,Luna">
+        Yehoshua Salcedo</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Stephanie,Zoe,Saúl">
+        Stephanie Salcedo</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 3 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa3">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 3</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Victor,Jessica,Janine,Ezequiel">
+        Fam Sánchez Aranda</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="David,Ithzel,Santiago">
+        Fam Sánchez Escobar</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Benjamin,Alin,Ana">
+        Fam Loza Rivera</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 4 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa4">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 4</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Moisés,Idalia,Jared,Lili">
+        Fam Carrales Bello</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Alejandro,Fany,Mauricio,Zaide,Sofía">
+        Fam Cuevas</a> 
+          <span class="badge badge-primary badge-pill">6</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 5 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa5">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 5</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Cristian,Tania,Hanna,Elian,Laila">
+        Fam Cruz Salcedo</a> 
+          <span class="badge badge-primary badge-pill">5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Fátima,Jayah,Susana,Invitado">
+        Fam Salcedo Gonzales</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 6 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa6">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 6</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Francisco,Elena,Invitado,Invitado">
+        Fam Salcedo López</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Miguel,Norma">
+        Fam Medrano Salcedo</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Mayte,Invitado">
+        Mayte Macias</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 7 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa7">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 7</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Mario,Mario,Miriam,Martha">
+        Fam Aranda Lopez</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Evelyn,Mari">
+        Fam Sánchez Ochoa</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Martha,Raul,Invitado,Invitado">
+        Fam Gonzales</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 8 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa8">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 8</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Angela,Jaqueline,Ricardo,Mia,Berenice,Salomón">
+        Fam García Cruz</a> 
+          <span class="badge badge-primary badge-pill">6</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="David,Ingrid,Samanta">
+        David Espinoza</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Guadalupe">
+        Guadalupe Cruz</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 9 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa9">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 9</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Luis,Rosa,Sharon,Gamaliel,Columba,Ángeles">
+        Rosa Carrales</a> 
+          <span class="badge badge-primary badge-pill">6</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Luis,Concepción,Miguel,Keila">
+        Fam Carrales Flores</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 10 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa10">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 10</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Andrés,Anabel,Jocabet,Samuel">
+        Fam Carrales Lozada</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Kevin,Betsabé">
+        Fam Eyvar Lozada</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Salatiel,Patricia,Daniel,Valentina">
+        Fam Carrales Guerra</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 11 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa11">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 11</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Carlos,Ruth">
+        Fam Ramírez Velez</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Noé,Janet,Denisse">
+        Fam Prieto Soriano</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Miguel,Esposa">
+        Miguel Donoso</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Ascención,Gloria">
+        Fam Peña</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Rocio">
+        Rocío Palafox</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 12 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa12">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 12</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Misael,Ismael,Zabdiel,Jaasiel,Mirna,Carlos,Invitado">
+        Grupo Renuevo</a> 
+          <span class="badge badge-primary badge-pill">7</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Isaías">
+        Isaías Barrera</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Abraham">
+        Abraham Mendez</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 13 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa13">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 13</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Octavio,Raquel,Natalia,Sofía,Yatniel">
+        Fam Castillo Loza</a> 
+          <span class="badge badge-primary badge-pill">5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Roberto,Raquel,Roberto,Misael">
+        Fam Rico Ochoa</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 14 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa14">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 14</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Sofía,Héctor,Gabriel,Invitado">
+        Sofía Espinoza</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Arturo,Rosa,Carol,Invitado">
+        Rosa Cruz</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Cervando">
+        Cervando Cruz</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 15 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa15">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 15</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Angélica">
+        Angélica Alba</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Liz,Erick,Pablo,Dan">
+        Liz Haro</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Angélica,Daniel,Daniel,David">
+        Fam Juárez Haro</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Lourdes">
+        Lourdes Pérez</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 16 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa16">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 16</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Beatriz,Cesia,Rubi,Brisa">
+        Fam Carrales Alanís</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Juan,Monica,Mabel">
+        Fam Martínez Estrada</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Imelda,Patricia">
+        Fam Palacios</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 17 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa17">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 17</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Israel,Leticia">
+        Fam Ávila Ramírez</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Daniel,Liz,Invitado">
+        Fam Ávila Estrada</a> 
+          <span class="badge badge-primary badge-pill">3</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Karla,Rogelio,Invitado,Invitado">
+        Fam Moreno Ávila</a> 
+          <span class="badge badge-primary badge-pill">4</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Isabel">
+        Isabel Ávila</a> 
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mesa 18 -->
+  <div class="card text-white bg-secondary mb-3" style="width: 18rem;" id="mesa18">
+    <div class="pin"><img src="imagen/chincheta-roja.png" alt=""></div>
+    <div class="card-header"><b class="azul">Mesa 18</b></div>
+    <div class="card-body text-center p-3" style="height:15rem;">
+      <ul class="list-group list-group-flush lista-mesa">
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Francisco,Gisel,Saul,Vale,Mía">
+        Fam Barrón</a> 
+          <span class="badge badge-primary badge-pill">5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Gerardo,Invitado">
+        Gerardo Pérez</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center cont-fam p-1">
+          <a href="#" class="azul titulo fam" data-toggle="modal" data-target="#modalmesa" data-fam="Cinthia,Invitado">
+        Cinthia Arellano</a> 
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<footer class="footer">
+  <div class="">
+    
+  </div>
+</footer>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      console.log('hola');
+
+      function getRandomInt(min,max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+      return Math.floor(Math.random() * (max-min)+min);
+      }
+
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
+
+      // let giro = getRandomInt(-10,10);
+
+      // console.log(giro)
+
+      var card = document.getElementsByClassName('card');
+
+      var numCard = card.length
+
+      // console.log(numCard);
+
+      for (var i = 1; i <= numCard; i++) {
+        let giro = getRandomInt(-8,8);
+        let giroC = getRandomInt(40);
+        // console.log(giro)
+        $("#mesa"+i+"").css('transform', 'rotate('+giro+'deg)');
+        $("#mesa"+i+" img").css('transform', 'rotate('+giroC+'deg)');
+
+
+      }
+
+document.getElementById("titulo").addEventListener("click", function(event){
+ var titulo = this.getAttribute("title");
+ var tit = titulo.substring(4);
+ console.log(tit);
+});
+
+      // $(document).ready(function() {
+
+      //   $(".tit-asig").click(function(event) {
+      //     event = 1;
+      //     var titulo = $(this).attr("title");
+
+      //     console.log(event);
+      //     console.log(titulo);
+          
+      //   });
+        
+      // });
+
+
+      $(".fam").click(function(event) {
+        $(".miembros").remove();
+        var fam = $(this).attr('data-fam');
+        fami = fam.split(',');
+        numfam = fami.length
+        console.log(numfam)
+
+        if (numfam == 1) {
+          $(this).attr("data-toggle","false")
+        }else {
+          console.log('muestra modal')
+          fami.forEach(function(e,i,a){
+            $(".modal-fam").append('<p class="titulo azul miembros">'+e+'</p>');
+          })
+        }
+
+        
+        
+      });
+    </script>
+  </body>
+</html>

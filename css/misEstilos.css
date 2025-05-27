@@ -1,0 +1,287 @@
+.colores{
+	color:#15133C; /* AZUL */
+	color:#73777B; /* GRIS */
+	color:#EC994B; /* NARANJA */
+	color:#F1EEE9; /* GRIS CLARO */
+}
+.leyenda{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+}
+body{
+	background-image:url("../imagen/fondoPetalos.png");
+	background-size: 100%;
+}
+
+.dorado{
+	color: darkgoldenrod;
+}
+.gris{
+	color: #73777B;
+}
+.naranja{
+	color: #EC994B;
+}
+.cabecera{
+
+}
+.barraIzq{
+	position: absolute;
+	background: #15133C;
+	height: 4rem;
+}
+.cinta{
+	height: 12rem;
+	position: relative;
+}
+.cinta figure{
+    position: relative;
+    transform: rotate(-45deg);
+		padding: 0.7rem;
+    bottom: 5px;
+    left: 2px;
+    filter: invert(1);
+}
+.cinta:after, .cinta:before{
+	content: "";
+    position: absolute;
+    width: 48%;
+    height: 0px;
+    border-top: solid 0px transparent;
+    border-right: solid 41px transparent;
+    border-bottom: solid 40px #4d4d4d;
+    border-left: solid 0px transparent;
+    bottom: -15px;
+    left: 0;
+    border-style: double;
+}
+.cinta:before{
+	left: initial;
+	right: 0;
+  border-right: solid 0px transparent;
+ 	border-left: solid 41px transparent;
+
+}
+.diamante{
+	position: relative;
+  width: 1rem;
+  height: 1rem;
+  background: darkgoldenrod;
+  margin: 15px auto;
+  transform: rotate(45deg);
+}
+.titulo{
+	font-family: 'Great Vibes', cursive;
+}
+.cont-marcos{position: relative;}
+.marco{
+		width: 10rem;
+    height: 10rem;
+    background: #000;
+    transform: rotate(45deg);
+    border: 3px solid darkgoldenrod;
+    position: relative;
+}
+.marcoIzq, .marcoDer{
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+	background: rgba(0,0,0,.8);
+	border: 3px solid darkgoldenrod;
+	transform: rotate(45deg);
+}
+.marcoIzq{left: -1.3rem;}
+.marcoDer{right: -1.3rem;}
+
+article hr{
+	border: 1px solid #000;
+}
+.frase1{
+	  font-size: 28px;
+    text-shadow: 2px 1px 1px #000;
+}
+h2{
+	letter-spacing: 2px;
+}
+.invitar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 7rem;
+    background-image: url("../imagen/anillos.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 52% 35%;
+}
+.fecha{
+	font-size: 25px;
+	background: #000;
+	color: darkgoldenrod;
+}
+
+.mapa{
+	border: 5px solid #15133C;
+}
+.direccion{
+	background: #000;
+	color: goldenrod;
+}
+.direccion:hover{
+	background: goldenrod !important;
+	color: #000;
+}
+.titulo-mesa{
+	font-size: 20px;
+}
+.footer{
+	background: #000;
+	border-top: 10px solid #73777B;
+	height: 4rem;
+}
+.btn-amazon{
+	background: #000 !important;
+	border:1px solid #EC994B;
+}
+.btn-liver{
+	background: #D0307C !important;
+	border:1px solid #EC994B;
+}
+.carousel-item img{
+	margin: 0 auto;
+}
+.novios{
+	margin: 0 auto;
+}
+.jardin{
+	height: 33vh;
+	background-image: url('../imagen/jardin.jpeg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 35%;
+}
+.img-mesas{
+	/* background-image: url("https://cdn0.matrimonio.com.co/articles/images/7/9/3/3/img_3397/mesa-con-decoracin-blanco-y-negro.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y:56% ;*/
+	height: 10rem;
+	height: 33vh;
+background-image: url('../imagen/mesa.jpeg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 35%;
+}
+.img-regalos{
+	height: 10rem;
+	height: 33vh;
+background-image: url('../imagen/regalos.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 35%;
+}
+
+/* asignacion */
+.tit-asig{
+	border-top: 20px solid #15133C;
+    text-shadow: 0px 5px 6px #777;
+    border-radius: 70px;
+}
+.cont-mesas .card{
+    box-shadow: 2px 5px 10px #444
+}
+.cont-mesas{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.fam{
+	font-size: 25px;
+}
+.cont-fam{
+	border-bottom: 1px solid;
+}
+.cont-fam span{
+	background:#EC994B ;
+}
+.miembros{
+	font-size: 20px;
+}
+.lista-mesa{
+	height: 100%;
+	justify-content: center;
+}
+
+
+.pin img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 42%;
+	top: -15px;
+}
+/* .pin::after {
+  background-color: rgba(255, 255, 255, 1);
+  content: '';
+  height: 45%;
+  width: 12%;
+  position: absolute;
+  top: 4%;
+  left: 15%;
+  border-radius: 50%;
+  transform: rotate(40deg);
+}
+
+.pin::before{
+	content: '';
+	position: absolute;
+	height: 10px;
+	border: 1px solid #000;
+	left: 10px;
+	top: 20px;
+} */
+
+/* Movil */
+
+@media (max-width:500px){
+	.cinta{
+		height: 10rem;
+	}
+	.cinta:after, .cinta:before{
+		width: 37%;
+		bottom: -25px;
+	}
+	.frase1{
+		font-size: 22px;
+	}
+	.invitar{
+		height: 8rem;
+		background-attachment: initial;
+
+	}
+	.fotoInicio::after{
+		top: 5rem;
+		right: -82px;
+	}
+	.fotoInicio::before{
+		top: 5rem;
+		left: -82px;
+	}
+	.fecha{
+		font-size: 20px;
+	}
+	.mapa{
+		width: 350px;
+		height: 200px;
+	}
+	.img-mesas{
+		height: 23vh;
+	}
+	.img-regalos{
+		height: 23vh;
+	}
+}
