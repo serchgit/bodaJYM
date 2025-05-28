@@ -166,7 +166,7 @@ h2{
 }
 .jardin{
 	height: 33vh;
-	background-image: url('../imagen/jardin.jpeg');
+	background-image: url('../imagen/tulipanes2.jpeg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -179,7 +179,7 @@ h2{
 	background-position-y:56% ;*/
 	height: 10rem;
 	height: 33vh;
-background-image: url('../imagen/mesa.jpeg');
+background-image: url('../imagen/ramoTulipanes.jpeg');
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
