@@ -111,13 +111,15 @@ h2{
     background-image: url("../imagen/anillos.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: 52% 35%;
 }
 .fecha{
 	font-size: 25px;
 	background: #000;
-	color: darkgoldenrod;
+	color: #fff;
+	border-left: 10px double darkgoldenrod;
+	border-right: 10px double darkgoldenrod;
 }
 
 .mapa{
@@ -248,6 +250,10 @@ background-position: 50% 35%;
 /* Movil */
 
 @media (max-width:500px){
+	.cabecera h1{
+		margin-top: 2rem !important;
+		margin-bottom: 2rem !important;
+	}
 	.cinta{
 		height: 10rem;
 	}
@@ -257,11 +263,11 @@ background-position: 50% 35%;
 	}
 	.frase1{
 		font-size: 22px;
+		padding: 5px 20px;
 	}
 	.invitar{
-		height: 8rem;
+		height: fit-content;
 		background-attachment: initial;
-
 	}
 	.fotoInicio::after{
 		top: 5rem;
