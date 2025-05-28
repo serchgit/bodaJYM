@@ -7,10 +7,14 @@
 .leyenda{
 	font-family: 'Dancing Script', cursive;
 	font-size: 2rem;
+	text-shadow: 2px 2px 3px gray;
+}
+.leyenda i span{
+	font-size: 1.2rem;
 }
 body{
-	background-image:url("../imagen/fondoPetalos.png");
-	background-size: 100%;
+	background-image:url("../imagen/tulipanes.png");
+	background-size: cover;
 }
 
 .dorado{
@@ -121,7 +125,12 @@ h2{
 	border-left: 10px double darkgoldenrod;
 	border-right: 10px double darkgoldenrod;
 }
-
+.cont-reloj p{
+	background: #000;
+    color: wheat;
+    padding: 5px;
+    font-size: 2.2rem;
+}
 .mapa{
 	border: 5px solid #15133C;
 }
@@ -280,6 +289,7 @@ background-position: 50% 35%;
 	.fecha{
 		font-size: 20px;
 	}
+	.cont-reloj p{font-size: 1.2rem;}
 	.mapa{
 		width: 350px;
 		height: 200px;
